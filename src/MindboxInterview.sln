@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox.Math.Area", "Mindbox.Math.Area\Mindbox.Math.Area.csproj", "{38E25BA0-93AE-4E67-B639-1EE14186AAEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{D113DC3A-4E4D-4BEE-AC71-F8377D1344AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mindbox.Math.Area.Test", "Mindbox.Math.Area.Test\Mindbox.Math.Area.Test.csproj", "{FE05B9EB-A691-4EA6-86C6-2E113C50EE26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38E25BA0-93AE-4E67-B639-1EE14186AAEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E25BA0-93AE-4E67-B639-1EE14186AAEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E25BA0-93AE-4E67-B639-1EE14186AAEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E25BA0-93AE-4E67-B639-1EE14186AAEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE05B9EB-A691-4EA6-86C6-2E113C50EE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE05B9EB-A691-4EA6-86C6-2E113C50EE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE05B9EB-A691-4EA6-86C6-2E113C50EE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE05B9EB-A691-4EA6-86C6-2E113C50EE26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE05B9EB-A691-4EA6-86C6-2E113C50EE26} = {D113DC3A-4E4D-4BEE-AC71-F8377D1344AF}
+	EndGlobalSection
+EndGlobal
